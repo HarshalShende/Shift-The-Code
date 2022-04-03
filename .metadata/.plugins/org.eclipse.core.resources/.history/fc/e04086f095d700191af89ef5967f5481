@@ -1,0 +1,11 @@
+package JaxbPractice;
+
+public class TestEmployee {
+	
+	//Marshalling: Converting Java Objects Into XML
+	Employee employee=new Employee();
+	employee.setEmpNo(301);
+	employee.setName("Rama");
+	employee.setSalary(23000.0);
+	
+}

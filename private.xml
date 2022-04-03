@@ -1,0 +1,6 @@
+<!DOCTYPE employee SYSTEM "E:\XML WEBSERVICES\privatedtd.txt">
+<employee>
+<empno>123</empno>
+<name>RAMU</name>
+<salary>19000</salary>
+</employee>

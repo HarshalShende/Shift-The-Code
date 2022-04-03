@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "E:\XML WEBSERVICES\Repractice\books2.dtd">
+<books>
+    <book>
+        <bookname>core java</bookname>
+        <price>1000</price>
+        <author>HAri Krishna</author>
+        <publication>Naresh IT</publication>
+    </book>
+    
+    <book>
+        <title>CJ</title>
+        <price>2000</price>
+        <author>Natraj</author>
+        <publication>Naresh IT</publication>
+    </book>
+</books>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE students[
+<!ELEMENT students (course*,student*)>
+<!ELEMENT course EMPTY>
+<!ATTLIST course cid ID #REQUIRED>
+<!ATTLIST course cname CDATA #REQUIRED>
+<!ATTLIST course fee CDATA #REQUIRED>
+
+<!ELEMENT student EMPTY>
+<!ATTLIST student sid ID #REQUIRED>
+<!ATTLIST student name CDATA #REQUIRED>
+<!ATTLIST student scourse IDREFS #REQUIRED>
+]>
+
+<students>
+    <course cid="A1" cname="CJ" fee="1000"/>
+    <course cid="A2" cname="AJ" fee="2000"/>
+    <course cid="A3" cname="OR" fee="3000"/>
+    
+    <student sid="A100" name="AJAY" scourse="A1 A2" />
+    <student sid="A101" name="VIJAY" scourse="A2 A3"/>
+    <student sid="A103" name="JAY" scourse="A1"/>
+</students>
+

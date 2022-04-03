@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
+    vc:minVersion="1.0" vc:maxVersion="1.1">
+    
+    <xs:element name="course">
+        <xs:complexType>
+            <xs:attribute name="cid" type="xs:int"/>
+            <xs:attribute name="cname" type="xs:string"/>
+            <xs:attribute name="cfee" type="xs:decimal"/>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>

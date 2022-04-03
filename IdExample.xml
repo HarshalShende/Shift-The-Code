@@ -1,0 +1,11 @@
+<!DOCTYPE payments[
+<!ELEMENT payments (payment+)>
+<!ELEMENT payment EMPTY>
+<!ATTLIST payment payment-type (CASH|CARD|GPAY) #REQUIRED>
+<!ATTLIST payment accountNumber ID #REQUIRED>
+]>
+<payments>
+<payment  accountNumber="a121" payment-type="CASH" />
+<payment accountNumber="a122" payment-type="CARD" />
+<payment accountNumber="a123" payment-type="CASH" />
+</payments>

@@ -1,0 +1,14 @@
+<!DOCTYPE EMPLOYEE [
+<!ELEMENT EMPLOYEE (eno, name, salary)>
+<!ELEMENT eno (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+]
+>
+
+<EMPLOYEE>
+<eno>101</eno>
+<name>Ramu</name>
+<salary>1000</salary>
+</EMPLOYEE>
+

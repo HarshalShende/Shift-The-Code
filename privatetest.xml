@@ -1,0 +1,6 @@
+<!DOCTYPE employee SYSTEM "E:\XML WEBSERVICES\privatetest.dtd">
+<employee>
+<empno>101</empno>
+<name>harsh</name>
+<salary>?</salary>
+</employee>

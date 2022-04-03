@@ -1,0 +1,6 @@
+<!DOCTYPE Students SYSTEM "E:\XML WEBSERVICES\Students.dtd">
+<Students>
+<Student studentid="101" studentName="vijay" courseName="C" studentFee="1000"/>
+<Student studentid="102" studentName="Ram"/>
+<Student studentid="103" studentName="ajay" studentFee="1000"/>
+</Students>

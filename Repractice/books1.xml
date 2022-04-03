@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books[
+<!ELEMENT books (bname,title)>
+<!ELEMENT bname (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+]>
+
+<books>
+  <bname>core java</bname>
+  <title>CJ</title>
+</books>

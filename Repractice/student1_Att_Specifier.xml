@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students[
+<!ELEMENT students (student*)>
+<!ELEMENT student EMPTY>
+<!ATTLIST student rollno CDATA #REQUIRED>
+<!ATTLIST student name CDATA #IMPLIED>
+<!ATTLIST student course CDATA "java">
+<!ATTLIST student fee CDATA #FIXED "1000">
+]>
+
+<students>
+    <student rollno="101" name="RAM" course="Python" fee="1000"/>
+    <student rollno="102"  course="JAVA" fee="1000"/>
+    <student rollno="103" name="RAJA"/>
+    <student rollno="104" course="Angular" fee="1000"/>
+</students>

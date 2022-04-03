@@ -1,0 +1,28 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMISchema" 
+    xmlns:nit="http://empinfo.in/nit" 
+    targetNamespace="http://empinfo.in/nit" 
+    elementFormDefault="qualified">
+    <xs:simpleType name="DateList">
+        <xs:list itemType="xs:date"/>
+    </xs:simpleType>
+    <xs:simpleType name="contactList">
+        <xs:list itemType="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="salaryType">
+        <xs:restrictions base="xs:decimal">
+            <xs:minInclusive value="10000"/>
+            <xs:maxInclusive value="90000"/>
+        </xs:restrictions> 
+    </xs:simpleType>
+    <xs:element name="employee">
+        <xs:complexType> 
+            <xs:sequence>
+                <attribute name="empNo" type="int" />
+                <attribute name="name" type="string" />
+                    <attribute name="Salary" type="nit:decimal" />
+                    <attribute name="HolidayList" type="nit:dateList" /> 
+                    <attribute name="ContactNumbers" type="nit:contactList" />
+            </xs:sequence>
+        </xs:complexType>    
+    </xs:element>
+</xs:schema>

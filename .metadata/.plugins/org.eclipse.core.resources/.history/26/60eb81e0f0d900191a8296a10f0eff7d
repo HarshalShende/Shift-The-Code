@@ -1,0 +1,5 @@
+package com.soap.rpc;
+
+public class HelloWorldClient {
+
+}

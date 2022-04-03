@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employee PUBLIC "-//nareshit//1.0//EN" "E:\XML WEBSERVICES\Repractice\employee2.dtd">
+<employee>
+    <eno>111</eno>
+    <name>Harish</name>
+    <sal>100</sal>
+</employee>

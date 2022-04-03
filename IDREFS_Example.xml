@@ -1,0 +1,32 @@
+<!DOCTYPE students[
+<!ELEMENT students (course*,  student* )>
+<!ELEMENT course EMPTY>
+<!ATTLIST course cid ID #REQUIRED>
+<!ATTLIST course cName CDATA #REQUIRED>
+<!ATTLIST course cFee CDATA #REQUIRED>
+<!ELEMENT student EMPTY>
+<!ATTLIST student sid ID #REQUIRED>
+<!ATTLIST student sname CDATA #REQUIRED>
+<!ATTLIST student scourse IDREF #IMPLIED>
+<!ATTLIST student scourses IDREFS #IMPLIED>
+]>
+<students>
+<course cid="C1" cName="Java" cFee="500" />
+<course cid="C2" cName="Angular" cFee="2500" />
+<course cid="C3" cName="AWS" cFee="3500" />
+<student sid="S1" sname="Ramu" scourse="C1" />
+<student sid="S2" sname="Sita" scourse="C1" />
+<student sid="S4" sname="Ajay" scourses="C1 C2" />
+<student sid="S3" sname="Lakshman" scourse="C1" />
+</students>
+
+<students>
+<course cid="C1" cName="Java" cFee="500" />
+<course cid="C2" cName="Angular" cFee="2500" />
+<course cid="C3" cName="AWS" cFee="3500" />
+<student sid="S1" sname="Ramu" scourse="C1" />
+<student sid="S2" sname="Sita" scourse="C1" />
+<student sid="S4" sname="Ajay" scourses="C1 C2" />
+<student sid="S3" sname="Lakshman" scourse="C1" />
+<student sid="S5" sname="Bharat" scourses="C1 C2 C3" />
+</students>

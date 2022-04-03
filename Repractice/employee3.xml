@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees[
+<!ELEMENT employees (employee*)>
+<!ELEMENT employee (#PCDATA|name|salary)*>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+]>
+
+<employees>
+    <employee>
+        Name Is:<name>Harshal</name>
+        Salary Is:<salary>100</salary>
+    </employee>
+    
+    <employee>
+        Name Is:<name>Sachin</name>
+        Salary Is:<salary>2000</salary>
+    </employee>
+</employees>

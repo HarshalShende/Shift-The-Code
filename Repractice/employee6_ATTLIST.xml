@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE employees[
+<!ELEMENT employees (employee*)>
+<!ELEMENT employee EMPTY>
+<!ATTLIST employee id CDATA #REQUIRED>
+<!ATTLIST employee name CDATA #REQUIRED>
+<!ATTLIST employee salary CDATA #REQUIRED>
+]>
+
+<employees>
+    <employee id="101" name="Ajay" salary="10000"/>
+    <employee id="102" name="Vijay" salary="20000"/>
+</employees>

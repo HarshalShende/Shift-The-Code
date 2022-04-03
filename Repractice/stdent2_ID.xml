@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students[
+<!ELEMENT students (student*)>
+<!ELEMENT student EMPTY>
+<!ATTLIST student sid ID #REQUIRED>
+<!ATTLIST student name CDATA #REQUIRED>
+]>
+
+<students>
+    <student sid="A100" name="AJAY" />
+    <student sid="A101" name="VIJAY"/>
+    <student sid="A103" name="JAY"/>
+</students>
